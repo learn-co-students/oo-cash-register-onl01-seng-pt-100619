@@ -25,7 +25,7 @@ class CashRegister
     quantity.times do
       @all_items << item
     end
-    @last_transaction << price
+    @last_transaction << price * quantity
 
   end
 
